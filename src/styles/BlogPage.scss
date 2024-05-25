@@ -1,0 +1,16 @@
+
+.blog-page {
+   margin: 0;
+
+    .container{
+     display: flex;
+     flex-direction: row;
+    }
+
+ @media (max-width:1000px) {
+
+    .container{
+        flex-direction: column;
+    }
+}
+}
